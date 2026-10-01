@@ -1,0 +1,19 @@
+name: sismica
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - scikit-learn
+  - gh
+  - pip
+  - pip:
+      - segyio
+      - lasio
+      - welly
+      - bruges
+      - "setuptools<82"
